@@ -1,0 +1,279 @@
+body {
+    font-family:"Times New Roman", Times, serif;
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    /* position: relative; */
+  }
+
+  .home-new-cls{
+    background-color: #4267B2;
+    border: none;
+    color: white;
+    padding: 5px 1px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-decoration: none;
+
+
+  }
+  body{
+    background-image: url('https://wallpapercave.com/wp/YHlk56g.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+  }
+  .home-new-header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    color: white;
+    width: 30vw;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-btn {
+    background-color: #4267B2;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 12x;
+    cursor: pointer;
+  }
+  
+  .home-btn:hover {
+background-color: royalblue;
+}
+
+
+.home-post-main {
+  margin-top: 22rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+  header {
+    width: 100vw;
+    background-color: #4267B2; 
+    padding: 8px;
+    color: white;
+    
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color:black;
+    text-decoration: none;
+  }
+  nav ul li a i {
+    margin-right: 5px; 
+  }
+
+  
+  main {
+    align-items: center;
+    margin: 0 auto; 
+    max-width: 400px; 
+    padding: 20px;
+  }
+
+  .home-post {
+    width: 28vw;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 2px solid red;
+    padding: 10px; 
+    }
+  
+  
+  .home-post img {
+    border: 1px solid black;
+    width: 300px;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+    
+  }
+
+  .home-post .actions {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  .home-post .actions button {
+    margin-right: 10px;
+  }
+
+  .likes-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .home-like-count {
+    margin-right: 5px;
+    font-weight: bold;
+  }
+
+  .home-user-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .home-user-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .home-user-profile h2 {
+    margin: 0;
+  }
+
+  .home-you-might-like {
+    color:black;
+    position: fixed;
+    top: 120px;
+    right: 0;
+    width: 23vw;
+    height:70vh;
+    margin-top: -10px;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 2px solid blue;
+  }
+
+  .home-you-might-like h4{
+    margin-top: 1rem;
+  }
+
+  /* .sidebar {
+  border: 2px solid black;
+  padding: 10px;
+  float: right;
+  width: 200px; 
+  margin-left: 100px;
+  margin-top: 20px; 
+  background-color: #f2f2f2;
+  }
+  
+  .sidebar h3 {
+    margin-top: 1;
+  }
+  
+  .sidebar .home-user-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }  
+  
+  .sidebar .home-user-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .sidebar .user-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar .user-details h4 {
+    margin: 0;
+  }
+  
+  .sidebar .follow-home-btn {
+    background-color: #4267B2;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .sidebar .follow-home-btn:hover {
+    background-color: royalblue;
+  } */
+
+  .home-thought-section { 
+    color:black;
+    position: fixed;
+    top: 120px;
+    left: 0;
+    width: 23vw;
+    height: 70vh;
+    
+    margin-top: -10px;
+    margin-left: 20px;
+    padding: 6px;
+    background-color: #f2f2f2;
+    border: 2px solid blue;
+  }
+
+  
+  .home-thought-section h4 {
+    margin-top: 2rem;
+  }
+  
+  .home-thought-section .thought {
+    margin-bottom: 10px;
+  }
+  
+  .home-thought-section .thought .home-user-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .home-thought-section .thought .home-user-profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .home-thought-section .thought .user-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .home-thought-section .thought .user-details h4 {
+    margin: 0;
+  }
+  
+  
+
+
+  
+  
+  

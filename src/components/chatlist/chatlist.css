@@ -1,0 +1,39 @@
+.chatlist {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chatlist-chat-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .chatlist-profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .chatlist-search-container {
+    float: right;
+    margin-bottom: 10px;
+  }
+  
+  #chatlist-search-input {
+    flex-grow: 1;
+    padding: 5px;
+  }
+  
+  #chatlist-search-button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  

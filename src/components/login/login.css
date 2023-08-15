@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0%;
+    position: relative;
+
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    color: steelblue;
+    background-color: white;
+}
+
+.login-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 95vw;
+    position: absolute;
+    /* left: 50%;
+    top: 50%; */
+    /* transform: translate(-50%, -50%); */
+    
+    /* border: 2px solid red; */
+}
+
+.login-col-form {
+    
+    flex: 0 0 40%;
+    text-align: center;
+} 
+
+.login-col-logo {
+    /* width: 50vw; */
+    /* border: 2px solid red; */
+    flex: 0 0 40%;
+    text-align: left;
+}
+
+
+.login-col-logo img {
+    max-width: 500px;
+}
+
+.login-col-logo h2 {
+    font: 26px;
+    font-weight: 400;
+    padding: 0 30px;
+    line-height: 32px;
+}
+
+.login-col-form .login-hold {
+    background-color: white;
+    /* width: 50vw; */
+    /* border: 2px solid black; */
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    max-width: 420px;
+}
+
+.login-col-form .login-hold input,
+.login-col-form .login-hold .login-button {
+    width: 100%;
+    margin: 5px 0;
+    height: 45px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.login-col-form .login-hold input {
+    border: 1px solid #dddfe2;
+    color: black;
+    padding: 0 8px;
+    outline: none;
+}
+
+.login-col-form .login-hold input:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 0 2px white;
+}
+
+.login-col-form .login-hold .login-button {
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 16px;
+
+}
+
+.login-col-form .login-hold .login-new-account {
+    background-color: limegreen;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 50px;
+    padding: 0 16px;
+    margin-top: 18px;
+}
+
